@@ -1,0 +1,114 @@
+1. Difference between frontend, backend, and full-stack development
+
+Frontend development is basically everything a user sees and clicks on when they visit a website - the layout, buttons, colors, animations, all of it. It's built using HTML, CSS and JavaScript, and sometimes frameworks like React or Vue. A good example is the homepage of Netflix - the rows of movie posters, the hover effects, the navigation bar. All of that is frontend.
+
+Backend development on the other hand is what happens behind the scenes on the server. It handles things like logging in, storing data, and processing requests. So when Netflix decides what shows to recommend to you based on your watch history, that logic is running on the backend, not in your browser. Common backend languages are Java, Python, PHP and Node.js.
+
+Full-stack development just means a developer who can do both. They can build the interface AND the server-side logic. A lot of startups hire full-stack developers because one person can build the whole product instead of hiring two separate teams. For example, someone building a small food ordering app from scratch, handling both the React frontend and the Express backend, would be considered full-stack.
+
+
+2. Client-server model diagram
+
+Below is a simple diagram of how the client-server model works:
+client(browser) -> server : request
+server -> client(browser) : response
+
+Basically the client asks for something (like a webpage), the server processes it (maybe checking a database), and then sends the response back to be displayed.
+
+
+3. How a browser requests and displays a web page
+
+When you type a website address and hit enter, quite a lot happens in just a second or two:
+
+- First the browser needs to find out where that website actually lives, so it does a DNS lookup to convert the domain name into an IP address.
+- Once it has the address, it opens a connection with the server (usually using HTTPS these days for security).
+- The browser then sends an HTTP request asking for the page.
+- The server receives this, does whatever processing it needs (like pulling data from a database), and sends back the HTML file along with links to CSS and JS files.
+- The browser starts reading the HTML from top to bottom and builds something called the DOM.
+- At the same time it grabs the CSS and figures out how everything should look (colors, spacing, fonts).
+- Finally it runs any JavaScript, which can change things on the page dynamically.
+- After all this the page appears fully loaded and you can interact with it.
+
+
+4. Tools required for a web development environment
+
+Setting up a proper dev environment usually needs a few essential tools:
+
+Code Editor - something like VS Code, which is free and has a ton of extensions. This is where you actually write your code.
+
+Browser - Chrome or Firefox work well because they have built-in developer tools for testing and debugging.
+
+Git - for version control, so you can track changes and go back if something breaks. Usually paired with GitHub for storing code online.
+
+Node.js and npm - needed for running JavaScript outside the browser and installing packages/libraries that your project depends on.
+
+Terminal - command line access to run scripts, git commands, start servers etc.
+
+Live Server extension (or similar) - lets you preview your webpage and see changes instantly without manually refreshing.
+
+Each of these plays a different role but together they make development a lot smoother and faster.
+
+
+5. What is a web server
+
+A web server is a piece of software (sometimes people also refer to the physical machine) that stores website files and serves them to users when requested. Its job is basically to listen for incoming requests and respond with the right content - a webpage, an image, some data, whatever was asked for.
+
+Some commonly used web servers include:
+- Apache - one of the oldest and most widely used
+- Nginx - known for being fast and good at handling lots of traffic at once
+- Microsoft IIS - mostly used on Windows-based servers
+- Node.js (with Express) - popular for JavaScript-based apps and APIs
+
+
+6. Roles of frontend developer, backend developer, and database administrator
+
+A frontend developer focuses on the part of the app that users directly interact with - making sure it looks good, works on different screen sizes, and feels smooth to use.
+
+A backend developer works on the server side - writing the logic that powers the app, connecting to databases, handling user authentication, and making sure everything runs securely and efficiently.
+
+A database administrator (DBA) is responsible for managing the actual data - designing how it's structured, making sure it's backed up regularly, optimizing it so queries run fast, and controlling who has access to what.
+
+In a real project these three roles often overlap a bit, especially in smaller teams, but in larger companies they're usually separate jobs.
+
+
+7. Installing and configuring VS Code (practical task)
+
+This one needs to be done on your own computer, but here's how:
+
+Step 1: Download VS Code from code.visualstudio.com for your operating system.
+Step 2: Run the installer and go with the default settings.
+Step 3: Open VS Code once it's installed.
+Step 4: Head to the Extensions tab (the icon on the left sidebar, or Ctrl+Shift+X) and search for and install:
+   - Live Server
+   - Prettier
+   - HTML CSS Support
+Step 5: Create a new folder for your project and open it inside VS Code.
+Step 6: Add a basic index.html, style.css and script.js file to test everything works.
+Step 7: Right click on index.html and choose "Open with Live Server" - it should open in your browser automatically.
+
+
+8. Static vs dynamic websites
+
+A static website is one where the content doesn't change - every visitor sees the exact same page, and there's no backend logic involved. It's just plain HTML/CSS files sitting on a server. A simple portfolio page or a landing page for a small business would be a good example.
+
+A dynamic website generates its content on the fly, usually pulling from a database depending on who's viewing it or what they're searching for. Amazon's product pages are a good example - the price, stock availability, and even recommended products change depending on the user and what's happening in their database at that moment.
+
+The main difference really comes down to whether the page changes based on data/user input (dynamic) or stays exactly the same for everyone (static).
+
+
+9. Five web browsers and their rendering engines
+
+1. Google Chrome - uses the Blink engine
+2. Mozilla Firefox - uses the Gecko engine
+3. Apple Safari - uses the WebKit engine
+4. Microsoft Edge - uses Blink (it switched to Chromium/Blink back in 2020)
+5. Opera - also uses Blink
+
+Interestingly, Blink was actually forked from WebKit by Google back in 2013, so Chrome, Edge and Opera all share some of that original code even though they've diverged a lot since then. Firefox's Gecko engine was built independently by Mozilla, so it sometimes handles CSS or JavaScript slightly differently than the Blink-based browsers. This is part of why developers test websites across multiple browsers - a page can look perfect in Chrome but have small layout issues in Firefox or Safari because of these engine differences.
+
+
+10. Labeled diagram of web architecture (client, server, database, APIs)
+client(browser) -> server -> database
+                    |
+                    apis
+Basically the client sends a request, the server figures out what it needs (pulling from the database and/or hitting external APIs like a payment gateway), puts it all together, and sends the final response back to be shown on screen.
