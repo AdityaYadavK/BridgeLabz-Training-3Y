@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Registration Form</title>
+</head>
+<body>
+<h1>Student Registration Form</h1>
+<form>
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr><th colspan="2">Registration Form</th></tr>
+  <tr>
+    <td>Full Name</td>
+    <td><input type="text" placeholder="Enter your name" required></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="email" placeholder="abc@gmail.com" required></td>
+  </tr>
+  <tr>
+    <td>Phone Number</td>
+    <td><input type="tel" placeholder="9876543210"></td>
+  </tr>
+  <tr>
+    <td>Date of Birth</td>
+    <td><input type="date"></td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+    </td>
+  </tr>
+  <tr>
+    <td>Skills</td>
+    <td>
+      <input type="checkbox" name="skills" value="html"> HTML
+      <input type="checkbox" name="skills" value="css"> CSS
+      <input type="checkbox" name="skills" value="javascript"> JavaScript
+    </td>
+  </tr>
+  <tr>
+    <td>Course</td>
+    <td>
+      <select>
+        <option value="">--Select Course--</option>
+        <option value="bca">BCA</option>
+        <option value="bsc-cs">B.Sc Computer Science</option>
+        <option value="btech">B.Tech</option>
+        <option value="mca">MCA</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td><textarea rows="4" cols="40"></textarea></td>
+  </tr>
+  <tr>
+    <td>Upload Resume</td>
+    <td><input type="file"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

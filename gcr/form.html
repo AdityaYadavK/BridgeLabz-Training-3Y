@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label>
+        <br>
+        <input id="name" type="text" placeholder="enter your name" name="name" required>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input id="email" type="email" placeholder="enter your email" name="email">
+        <br>
+        <label for="pass">Password</label>
+        <br>
+        <input id="pass" type="password" placeholder="enter password" name="password">
+        <br>
+        <label for="skill">Skill</label>
+        <select name="skill" id="skill">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+        </select>
+        <br>
+        <section>
+            <input type="checkbox" id="html">
+            <label for="html">html</label>
+            <input type="checkbox" id="css">
+            <label for="css">css</label>
+            <input type="checkbox" id="js">
+            <label for="js">js</label>
+        </section>
+        <br>
+        <section>
+            <label>Gender : </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </section>
+
+        <input type="file" name="file">
+        <br>
+        <input type="range" max="3" min="0">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
