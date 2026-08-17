@@ -1,0 +1,99 @@
+  body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e9e9ec;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .card {
+      width: 320px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+      padding: 32px 28px;
+      text-align: center;
+  }
+
+  .avatar {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background: #d3d3d3;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8a8a8a;
+      font-weight: bold;
+      font-size: 18px;
+  }
+
+  .name {
+      font-size: 26px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 8px;
+  }
+
+  .branch {
+      font-size: 17px;
+      font-weight: 700;
+      color: #333;
+      margin: 0 0 6px;
+  }
+
+  .college {
+      font-size: 15px;
+      color: #8a8a8a;
+      margin: 0 0 18px;
+  }
+
+  .bio {
+      font-size: 14.5px;
+      color: #444;
+      line-height: 1.5;
+      margin: 0 0 22px;
+  }
+
+  .skills-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 14px;
+  }
+
+  .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 28px;
+  }
+
+  .skill {
+      background: #eef1fb;
+      color: #3854d6;
+      font-size: 13.5px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 8px;
+  }
+
+  .contact-btn {
+      width: 100%;
+      padding: 14px;
+      background: #3b52d9;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+  }
+
+  .contact-btn:hover {
+      background: #2e42b8;
+  }
