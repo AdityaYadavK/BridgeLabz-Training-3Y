@@ -1,0 +1,76 @@
+.container {
+    /* border: 1px solid red;  */
+    position: relative;
+}
+
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.box-1 {
+    background-color: beige;
+}
+
+.box-2 {
+    background-color: blueviolet;
+    /* relative : from its original position */
+    /* absolute : from window original position */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.box-3 {
+    background-color: chartreuse;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.box-4 {
+    background-color: aqua;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+.circum {
+    position: relative;
+    top: 70px;
+}
+
+.in-1 {
+    background-color: aquamarine;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+.in-2 {
+    background-color: blue;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 170px;
+    height: 170px;
+}
+
+.in-3 {
+    background-color: antiquewhite;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 140px;
+    height: 140px;
+}
+
+.in-4 {
+    background-color: coral;
+    position: absolute;
+    left: 45px;
+    top: 45px;
+    width: 110px;
+    height: 110px;
+}
