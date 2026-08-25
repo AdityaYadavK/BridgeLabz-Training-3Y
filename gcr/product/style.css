@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20rem;
+    height: 30rem;
+}
+
+.image {
+    background-color: red;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5px;
+}
+
+.info {
+    background-color: white;
+    height: 50%;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px;
+}
+
+.description {
+    padding: 20px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+    margin: 7px;
+}
+
+.ratings {
+    font-size: 30px;
+    color: gold;
+    padding-left: 19px;
+}
+
+.rno {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
