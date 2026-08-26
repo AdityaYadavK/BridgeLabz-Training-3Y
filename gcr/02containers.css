@@ -1,0 +1,22 @@
+ /* body{
+    padding: 20px;
+    margin: 70px;
+} */
+
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .container {
+     width: 50%;
+     border: 6px solid red;
+     border-radius: 20px;
+     padding: 34px;
+     background-color: rgb(229, 227, 227);
+     font-size: 20px;
+     text-align: center;
+ }

@@ -1,0 +1,9 @@
+.box {
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+.box h1 {
+    margin : 2px;
+}
