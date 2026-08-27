@@ -24,11 +24,13 @@ div {
 	width: 30vw;
 	height: 10vh;
 	border-radius: 20px;
+	border: 1px solid black;
 }
 
 .row-2 {
 	display: flex;
 	height: 20vh;
+	margin-top: 10px;
 }
 
 .col-1 {
@@ -36,12 +38,15 @@ div {
 	width: 20vw;
 	height: 10vh;
 	border-radius: 20px;
+	border: 1px solid black;
 }
 
 .col-2 {
-	width: 10vw;
+	width: 9vw;
+	margin-left: 1vw;
 	background-color: aquamarine;
 	border-radius: 20px;
+	border: 1px solid black;
 }
 
 .row-2row-1 {
@@ -53,15 +58,21 @@ div {
 }
 
 .row-2col-1 {
-	height: 10vh;
+	height: 9vh;
+	margin-top: 1vh;
 	width: 10vw;
 	background-color: blueviolet;
 	border-radius: 20px;
+	margin-right: 0.5vw;
+	border: 1px solid black;
 }
 
 .row-2col-2 {
 	width: 10vw;
-	height: 10vh;
+	margin-top: 1vh;
+	height: 9vh;
+	margin-left: 0.5vw;
 	background-color: yellow;
 	border-radius: 20px;
+	border: 1px solid black;
 }
