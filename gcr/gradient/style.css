@@ -12,7 +12,7 @@ body {
 }
 
 .card {
-	width: 500px;
+	width: 400px;
 	height: 500px;
 	border: 1px solid black;
 	background-color: aqua;
@@ -20,10 +20,33 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: -20px -20px 50px black;
+	box-shadow: -10px -10px 10px black;
+	transition: all 0.3s ease;
 	background-image: linear-gradient(to right bottom, red, pink, blue);
+}
+
+.card:hover{
+	transform: scale(1.05);
+	transform: translateY(-20px);
+	box-shadow: -20px -20px 50px black;
 }
 
 .header {
 	font-size: 70px;
+}
+
+.btn {
+	height: 30px;
+	width: 70px;
+	border-radius: 15px;
+	border: 2px solid aquamarine;
+	font-size: 23px;
+	transition: all 0.4s ease;
+}
+
+.btn:hover{
+	border : 2px solid greenyellow;
+	background-color: greenyellow;
+	cursor: pointer;
+	transform: scale(1.2);
 }
