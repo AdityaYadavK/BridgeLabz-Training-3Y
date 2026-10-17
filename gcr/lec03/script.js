@@ -76,3 +76,12 @@ let resultant = fruits.filter((value, idx, fruits) => {
     return ele != 'apple';
 })
 
+// fliter the age > 18
+let age = [64, 12, 16, 18, 90, 87]
+let mature = age.filter((x) => {
+    return x > 18;
+})
+
+console.log(mature);
+
+let fucks = ['apple', '']
