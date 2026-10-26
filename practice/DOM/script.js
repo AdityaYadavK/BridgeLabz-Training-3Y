@@ -22,11 +22,9 @@ let fun2 = () => {
 
 let fun3 = () => {
 	boxel.style.backgroundColor = "red";
-	
-}
+};
 
 btnel.addEventListener("click", fun);
 btnel2.addEventListener("dblclick", fun2);
-
 
 console.log(h1el);
