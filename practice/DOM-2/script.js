@@ -16,5 +16,4 @@ function decrement() {
 inc.addEventListener("click", increment);
 dec.addEventListener("click", decrement);
 
-
-console.log('')
+console.log("");

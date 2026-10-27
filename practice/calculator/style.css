@@ -1,0 +1,17 @@
+.btn {
+	width: 100px;
+	height: 100px;
+}
+
+.input {
+	width: 400px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}
+
+body {
+	height: 1vh;
+	font-size: 100px;
+}
